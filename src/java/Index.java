@@ -30,8 +30,8 @@ public class Index extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("Exercise1.jsp");
-        //RequestDispatcher requestDispatcher = request.getRequestDispatcher("Exercise2.jsp");
+        //RequestDispatcher requestDispatcher = request.getRequestDispatcher("Exercise1.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("Exercise2.jsp");
         //RequestDispatcher requestDispatcher = request.getRequestDispatcher("Exercise5.jsp");
         
         requestDispatcher.forward(request, response);
